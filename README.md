@@ -16,9 +16,7 @@ require 'chinese_regions'
 
 provinces = ChineseRegions::Region.load_all
 
-
 regions = ChineseRegions::Region.flat
-
 ```
 
 Region 包含的属性

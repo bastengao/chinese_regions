@@ -33,6 +33,8 @@ module ChineseRegions
         json_index = File.expand_path(file, json_base_dir)
         JSON.parse(File.read json_index)
       end
+
+      alias provinces load_all
     end
 
 
