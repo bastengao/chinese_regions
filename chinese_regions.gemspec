@@ -13,10 +13,9 @@ Gem::Specification.new do |s|
   s.authors     = ["Basten Gao"]
   s.email       = 'bastengao@gmail.com'
   s.files       = ["lib/chinese_regions.rb"]
-  s.files       += Dir.glob("lib/**/*")
-  s.homepage    =
-      'https://github.com/bastengao/chinese_regions'
-  s.license       = 'MIT'
+  s.files      += Dir.glob("lib/**/*")
+  s.homepage    = 'https://github.com/bastengao/chinese_regions'
+  s.license     = 'MIT'
   s.required_ruby_version     = '>= 1.9.3'
   s.required_rubygems_version = '>= 1.8.11'
 
