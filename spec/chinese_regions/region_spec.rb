@@ -6,6 +6,11 @@ describe ChineseRegions::Region do
   it "load all" do
     provinces = ChineseRegions::Region.load_all
     puts provinces.length
-    puts provinces.first
+  end
+
+  it "flat" do
+    regions = ChineseRegions::Region.flat
+    puts regions[0..80]
+    puts regions.size
   end
 end
